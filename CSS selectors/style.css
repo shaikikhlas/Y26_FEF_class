@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heading1 {
+    background-color: lightblue;
+    padding: 15px;
+    border: 2px solid blue;
+}
+.demo {
+    color: green;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 8px;
+}
+h1,p {
+    font-family: Arial;
+    color: purple;
+}
+div p {
+    color: navy;
+    font-size: 18px;
+   
+}
+.container p {
+    color: brown;
+    font-size: 16px;
+    
+}
+.container > p {
+    color: black;
+    font-weight: bold;
+}
+h2 + p {
+    color: red;
+    font-weight: bold;
+}
+h3 ~ p {
+    color: blueviolet;
+    font-style: italic;
+    background-color: lightgray;
+}
+input[type="text"] {
+    background-color: lightyellow;
+    padding: 8px;
+}
+input[type="password"] {
+    background-color: lightblue;
+    padding: 8px;
+}
+input[type="email"] {
+    background-color: lightgreen;
+    padding: 8px;
+}
+button:hover {
+    background-color: orange;
+    color: white;
+    Text-size: 24px;
+}
+button:active {
+    background-color: red;
+}
+input:focus {
+    outline: 2px solid blue;
+    background-color: lightyellow;
+}
+.pseudo::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+.pseudo::first-line {
+    color: blue;
+}
+.after::after {
+    content: "!";
+    color: red;
+}
+p {
+    color: blue;
+}
+.text {
+    color: green;
+}
+#para {
+    color: red;
+}

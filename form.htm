@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label>Student name:</label>
+        <input type="text" placeholder="Enter your name" name="Studentname"><br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email"><br><br>    
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your Password"><br><br>
+        <label>Age:</label>
+        <input type="number" min="17" max="50" placeholder="AGE"><br><br>
+        <label>Gender:</label>
+        <input type="radio" value="male">Male
+        <input type="radio" value="female" >Female<br><br>
+        </fieldset>
+        <label>Skills:</label>
+        <input type="checkbox" value="HTML">HTML
+        <input type="checkbox" value="CSS">CSS
+        <input type="checkbox" value="JavaScript">JavaScript<br><br>
+        <label>Department:</label>
+        <select name="Department">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="AI&DS">AI&DS</option>
+            <option value="CS&IT">CS&IT</option> </select> <br><br>
+            <label>Course:</label>
+        <input list="course" name="course">
+        <datalist id ="course">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="AI&DS">AI&DS</option>
+            <option value="CS&IT">CS&IT</option>
+        </datalist> <br><br>
+         <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+        <label>Address:</label>
+        <textarea name="address" rows="5" cols="30" placeholder="Enter your Address">
+        </textarea> <br><br>
+        <label>Upload your photo:</label>
+        <input type="file" name="photo"><br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="clear">
+</body>
+</html>

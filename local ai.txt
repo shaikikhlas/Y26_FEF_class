@@ -1,0 +1,5 @@
+Good morning , everyone !
+My name is ikhlas and today I am gonna talk about local ai.
+Local AI is a AI chatbot that runs locally on your machine i.e youre laptop or mobile or any other devices. The server for holding of information is youre device where youre local ai is installed. It can run without network and help you with any type of task. It is best for the privacy of data . The data doesn't go out of youre device  unless you share them.
+This  is why Local Ai is better than cloud Ai. 
+Thank you!
